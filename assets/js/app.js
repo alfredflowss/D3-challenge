@@ -63,6 +63,6 @@ d3.csv("assets/data/data.csv").then(function(myData) {
         .attr("fill", "gold")
         .attr("stroke-width", "1")
         .attr("stroke", "black")
-        .data( d => d.abbr);
+        .text(d => d.abbr);
 
 });
